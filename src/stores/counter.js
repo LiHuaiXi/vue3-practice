@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+带几套衣服就可以了 到时候不import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useCounterStore = defineStore('counter', () => {
