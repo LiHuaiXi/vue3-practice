@@ -1,0 +1,93 @@
+// 初始化
+@charset "UTF-8";
+@import "./variables.scss";
+
+body {
+  height: 100%;
+  color: $font-dark;
+  font-size: $base-fontSize;
+  line-height: $base-lineHeight;
+  text-rendering: optimizeLegibility;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+// 根据使用习惯，对normalize上进行补充
+//-----------------------------------------------------
+html,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+  margin: 0;
+}
+
+// ul ol dl
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none outside none;
+}
+
+* {
+  // font-size: 12px;
+  // font-family: huai;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border: 1px solid #3879d9;
+  outline: none;
+}

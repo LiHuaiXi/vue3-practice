@@ -1,0 +1,87 @@
+@charset "utf-8";
+// sidebar
+$menuText         : #5b5c5e;
+$menuActiveText   : #2b62cf;
+$subMenuActiveText: #2b62cf;
+
+$menuBg   : #ffffff;
+$menuHover: #eaf6ff;
+
+$subMenuBg   : #ffffff;
+$subMenuHover: #eaf6ff;
+
+$sideBarWidth   : 240px;
+$headerBarHeight: 50px;
+// 自定义变量
+
+// padding
+$big-pd    : 24px;
+$main-pd   : 20px;
+$padding-rl: 10px;
+$padding-tb: 10px;
+
+// border相关
+$light-border : 1px solid #e4e7ed;
+$common-border: 1px solid #dcdfe6;
+$dark-border  : 1px solid #82909f;
+
+@mixin radius($radius) {
+  border-radius: $radius;
+}
+
+
+// 基本颜色
+$primary            : #0187fb !default; //主色
+//框架默认主题色
+$base-color-default : #0187fb !default;
+$primary-hover      : #428eee !default;
+
+$assist      : #48abf7 !default;
+$assist-hover: #6fbdf9 !default;
+
+$warn      : #f68634 !default;
+$warn-hover: #f79751 !default;
+
+$error      : #f82c35 !default;
+$error-hover: #f94a51 !default;
+
+$success      : #48c183 !default;
+$success-hover: #a3e0c1 !default;
+
+// 字体色
+$font-primay: #333333;
+$font-dark  : #5b5c5e !default;
+$font-light : #ffffff !default;
+$font-active: #47b4ed !default;
+
+// 背景色
+$primary-bg: #f7f8fa !default;
+$second-bg : #dcdfe5 !default;
+$content-bg: #ffffff !default;
+
+// 字体相关
+$main-fontSize     : 20px !default;
+$title-fontSize    : 18px !default;
+$title-sub-fontSize: 16px !default;
+$base-fontSize     : 14px !default;
+$min-fontSize      : 12px !default;
+$base-lineHeight   : 1.5 !default;
+
+//字体大小配置
+$base-font-size-small  : 12px;
+$base-font-size-default: 14px;
+$base-font-size-big    : 16px;
+$base-font-size-bigger : 18px;
+$base-font-size-max    : 22px;
+$base-font-color       : #606266;
+$base-color-blue       : $base-color-default;
+$base-color-green      : #41b882;
+$base-color-white      : #fff;
+$base-color-black      : #000;
+$base-color-yellow     : #ffa91b;
+$base-color-orange     : #ff6700;
+$base-color-red        : #f34d37;
+$base-color-gray       : rgba(0, 0, 0, 0.65);
+$base-main-width       : 1279px;
+$base-border-radius    : 4px;
+$base-border-color     : #dcdfe6;
